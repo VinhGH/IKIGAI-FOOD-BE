@@ -1,0 +1,19 @@
+# Môi trường ảo (Virtual Environment)
+.venv/
+venv/
+env/
+ENV/
+
+# Python rác (Byte-compiled / optimized / DLL files)
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Biến môi trường (Chứa mật khẩu, Database URL - Rất quan trọng)
+.env
+.env.local
+
+# IDE (VS Code, PyCharm)
+.vscode/
+.idea/
+
