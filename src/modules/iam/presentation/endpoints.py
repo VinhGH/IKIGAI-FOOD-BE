@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends
 from sqlmodel import Session
 from src.building_blocks.infrastructure.database import get_session
 from src.modules.iam.application.services import IAMService
